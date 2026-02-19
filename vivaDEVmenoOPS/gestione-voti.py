@@ -22,6 +22,8 @@ class student:
         if not self.studente["voti"]:
             return 0.0
         return sum(self.studente["voti"]) / len(self.studente["voti"])
+    
+    #def max_voto(self) -> Optional[int]:
 
 def main():
     print("Benvenuto al sistema di gestione voti!")
